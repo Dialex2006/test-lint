@@ -45,6 +45,6 @@ module.exports = {
     "react/jsx-uses-react": "off", // after react v17
     "react/jsx-no-bind": "off",
     "comma-dangle": ["error", "always-multiline"],
-    quotes: ["error", "double"],
+    quotes: ["error", "double", { avoidEscape: true }],
   },
 };
