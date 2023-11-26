@@ -44,7 +44,8 @@ module.exports = {
     "react/react-in-jsx-scope": "off", // after react v17
     "react/jsx-uses-react": "off", // after react v17
     "react/jsx-no-bind": "off",
-    "comma-dangle": ["error", "always-multiline"],
-    quotes: ["error", "double", { avoidEscape: true }],
+    quotes: "off",
+    "space-before-function-paren": "off",
+    "comma-dangle": "off",
   },
 };
